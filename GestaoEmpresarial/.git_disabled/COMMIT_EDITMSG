@@ -1,0 +1,11 @@
+feat: implementar sistema de gestão de funcionários e controle de ponto
+
+- Adicionar arquitetura limpa com 4 camadas (Domain, Application, Infrastructure, API)
+- Implementar entidades: Funcionario, Departamento, RegistroPonto, Usuario
+- Criar interfaces de repositórios
+- Implementar repositórios com Entity Framework Core
+- Configurar DbContext com SQL Server
+- Adicionar seed data para departamentos
+- Implementar níveis de acesso (Funcionário, Gestor, RH, Admin)
+- Adicionar sistema de registro de ponto com tipos (Entrada, Saída, Intervalo)
+- Incluir geolocalização e auditoria de ajustes manuais

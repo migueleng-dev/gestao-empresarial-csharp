@@ -1,0 +1,11 @@
+{
+  "nome": "João Silva",
+  "cpf": "12345678901",
+  "email": "joao.silva@empresa.com",
+  "telefone": "(11) 98765-4321",
+  "dataNascimento": "1990-05-15",
+  "dataAdmissao": "2024-01-10",
+  "salario": 5500.00,
+  "cargo": "Desenvolvedor",
+  "departamentoId": 1
+}
