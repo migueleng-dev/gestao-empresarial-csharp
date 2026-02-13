@@ -2,7 +2,7 @@
 
 Sistema de gerenciamento de tarefas desenvolvido com Spring Boot, demonstrando boas práticas de desenvolvimento Java para processos seletivos de estágio em Engenharia de Software.
 
-## 🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 - **Java 17**
 - **Spring Boot 3.2.0**
@@ -13,18 +13,18 @@ Sistema de gerenciamento de tarefas desenvolvido com Spring Boot, demonstrando b
 - **Swagger/OpenAPI** (documentação da API)
 - **JUnit 5 & Mockito** (testes unitários)
 
-## 📋 Funcionalidades
+Funcionalidades
 
-- ✅ CRUD completo de tarefas
-- ✅ Filtros por status e prioridade
-- ✅ Busca por palavras-chave
-- ✅ Validação de dados
-- ✅ Tratamento global de exceções
-- ✅ Documentação automática com Swagger
-- ✅ Testes unitários
-- ✅ Banco de dados em memória H2
+- CRUD completo de tarefas
+- Filtros por status e prioridade
+- Busca por palavras-chave
+- Validação de dados
+- Tratamento global de exceções
+- Documentação automática com Swagger
+- Testes unitários
+- Banco de dados em memória H2
 
-## 🏗️ Arquitetura
+Arquitetura
 
 O projeto segue uma arquitetura em camadas:
 
@@ -38,7 +38,7 @@ O projeto segue uma arquitetura em camadas:
 └── config/         # Configurações da aplicação
 ```
 
-## 🔧 Como Executar
+Como Executar
 
 ### Pré-requisitos
 - Java 17 ou superior
@@ -56,7 +56,7 @@ mvn spring-boot:run
 
 A aplicação estará disponível em: `http://localhost:8080`
 
-## 📚 Documentação da API
+Documentação da API
 
 Após iniciar a aplicação, acesse:
 
@@ -69,7 +69,7 @@ Após iniciar a aplicação, acesse:
 - **Username**: `sa`
 - **Password**: *(deixar em branco)*
 
-## 🧪 Testes
+Testes
 
 ```bash
 # Executar todos os testes
@@ -79,7 +79,7 @@ mvn test
 mvn test jacoco:report
 ```
 
-## 📡 Endpoints Principais
+Endpoints Principais
 
 ### Tarefas
 
@@ -96,7 +96,7 @@ mvn test jacoco:report
 | PATCH | `/api/tarefas/{id}/status?status={status}` | Atualiza apenas o status |
 | DELETE | `/api/tarefas/{id}` | Remove tarefa |
 
-## 📦 Exemplo de Requisição
+Exemplo de Requisição
 
 ### Criar Tarefa
 
@@ -127,21 +127,21 @@ Content-Type: application/json
 }
 ```
 
-## 🎯 Características do Código
+Características do Código
 
 ### Boas Práticas Implementadas
 
-- ✅ **Arquitetura em Camadas**: Separação clara de responsabilidades
-- ✅ **DTOs**: Separação entre entidades e objetos de transferência
-- ✅ **Validações**: Bean Validation com anotações
-- ✅ **Tratamento de Exceções**: Handler global para erros
-- ✅ **Testes Unitários**: Cobertura da camada de serviço
-- ✅ **Documentação**: Swagger/OpenAPI integrado
-- ✅ **Lombok**: Redução de código boilerplate
-- ✅ **SOLID**: Princípios aplicados
-- ✅ **Clean Code**: Código limpo e legível
+-  **Arquitetura em Camadas**: Separação clara de responsabilidades
+-  **DTOs**: Separação entre entidades e objetos de transferência
+- **Validações**: Bean Validation com anotações
+-  **Tratamento de Exceções**: Handler global para erros
+- **Testes Unitários**: Cobertura da camada de serviço
+-  **Documentação**: Swagger/OpenAPI integrado
+-  **Lombok**: Redução de código boilerplate
+-  **SOLID**: Princípios aplicados
+-  **Clean Code**: Código limpo e legível
 
-## 📊 Modelo de Dados
+Modelo de Dados
 
 ### Entidade Tarefa
 
@@ -156,7 +156,7 @@ Content-Type: application/json
 - dataConclusao: LocalDateTime (preenchido ao concluir)
 ```
 
-## 🎓 Conhecimentos Demonstrados
+## Conhecimentos Demonstrados
 
 Este projeto demonstra conhecimento em:
 
@@ -171,7 +171,7 @@ Este projeto demonstra conhecimento em:
 - Boas práticas de código (SOLID, Clean Code)
 - Versionamento com Git
 
-## 📝 Melhorias Futuras
+##  Melhorias Futuras
 
 - Implementar autenticação e autorização (Spring Security)
 - Adicionar paginação e ordenação
@@ -190,4 +190,4 @@ Desenvolvido por Miguel-Dev💻
 
 ---
 
-⭐ Este projeto demonstra habilidades práticas em desenvolvimento Java/Spring Boot e está pronto para ser apresentado em entrevistas técnicas!
+ Este projeto demonstra habilidades práticas em desenvolvimento Java/Spring Boot e está pronto para ser apresentado!
