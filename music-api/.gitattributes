@@ -1,0 +1,5 @@
+*.java linguist-detectable=true
+*.xml linguist-detectable=true
+*.properties linguist-detectable=true
+*.sql linguist-detectable=true
+*.md linguist-documentation=true
