@@ -186,7 +186,7 @@ Este projeto demonstra conhecimento em:
 
 ## 👨‍💻 Autor
 
-Desenvolvido como projeto de demonstração para processos seletivos de estágio em Engenharia de Software.
+Desenvolvido por Miguel-Dev💻
 
 ---
 
