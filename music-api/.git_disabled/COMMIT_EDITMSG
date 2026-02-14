@@ -1,1 +1,0 @@
-feat: implementar Music API completa com Spring Boot - CRUD completo de músicas - Busca avançada por artista, gênero, álbum, ano - Validações robustas com Bean Validation - Tratamento global de exceções - Documentação Swagger/OpenAPI - Arquitetura em camadas - 11 endpoints REST - Banco H2 com dados de teste
