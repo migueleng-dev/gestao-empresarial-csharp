@@ -17,16 +17,18 @@
 
 ## 📋 Sobre o Projeto
 
-Anime SaaS é uma plataforma completa de Software como Serviço (SaaS) para gerenciamento, descoberta e avaliação de animes. O sistema implementa autenticação JWT, planos de assinatura, sistema de favoritos e avaliações.
+Sempre quis criar um projeto que unisse minha paixão por animes com desenvolvimento backend. Anime SaaS nasceu dessa ideia - uma plataforma para gerenciar e descobrir animes, com sistema de assinaturas e controle de acesso.
 
-### 🎯 Propósito
+O projeto começou como um desafio pessoal para aprender mais sobre Spring Security e JWT, mas acabou evoluindo para algo muito maior.
 
-Demonstrar a construção de uma aplicação SaaS real com:
-- Arquitetura escalável e profissional
-- Autenticação e autorização JWT
-- Sistema de assinaturas (Free, Basic, Premium, Enterprise)
-- Controle de acesso baseado em planos
-- API RESTful completa e documentada
+### 🎯 Por Que Este Projeto?
+
+Queria praticar conceitos de SaaS real:
+- Arquitetura escalável que eu pudesse usar em projetos profissionais
+- Autenticação JWT (sempre quis implementar do zero)
+- Sistema de planos de assinatura (tipo Netflix, Crunchyroll)
+- Controle de acesso granular
+- API REST bem estruturada
 
 ---
 
@@ -321,28 +323,40 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 📈 Próximas Features
+## 📈 Roadmap
 
-- [ ] Sistema de notificações
-- [ ] Recomendações personalizadas (ML)
+Coisas que quero adicionar quando tiver tempo:
+
+**Curto Prazo:**
+- [ ] Sistema de notificações (push quando novo episódio sair)
+- [ ] Integração com MyAnimeList API
+- [ ] Sistema de pagamento com Stripe
+
+**Médio Prazo:**
+- [ ] Recomendações baseadas no histórico (estudando ML pra isso)
+- [ ] App mobile - provavelmente vou fazer em React Native
+- [ ] Dashboard de analytics
+
+**Longo Prazo:**
+- [ ] Sistema de fóruns/comunidade
 - [ ] Chat entre usuários
-- [ ] Fóruns de discussão
-- [ ] Sistema de conquistas
-- [ ] Estatísticas de visualização
-- [ ] Integração com APIs externas (MyAnimeList, AniList)
-- [ ] Sistema de pagamento (Stripe/PagSeguro)
-- [ ] App mobile (React Native)
-- [ ] CDN para streaming
-- [ ] Sistema de legendas
-- [ ] Modo offline
+- [ ] CDN para streaming (cara mas seria legal)
+- [ ] Conquistas e gamificação
+
+Se você tem ideias, abre uma issue! Sempre aberto a sugestões.
 
 ---
 
-## 👨‍💻 Desenvolvido por
+## 👨‍💻 Autor
 
-**Miguel Eng**
+Desenvolvido por **Miguel Eng**
+
+Sou desenvolvedor backend apaixonado por criar soluções escaláveis. Este projeto foi uma jornada de aprendizado incrível!
+
 - GitHub: [@migueleng-dev](https://github.com/migueleng-dev)
 - LinkedIn: [Miguel Eng](https://linkedin.com/in/migueleng)
+
+Se curtiu o projeto ou tem dúvidas, me chama!
 
 ---
 
@@ -354,25 +368,46 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🤝 Contribuindo
 
-Contribuições são bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes.
+Pull requests são bem-vindos! Se encontrar bugs ou tiver sugestões:
+
+1. Abre uma issue descrevendo o problema/ideia
+2. Fork o projeto
+3. Cria uma branch (`git checkout -b feature/nova-funcionalidade`)
+4. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+5. Push para a branch (`git push origin feature/nova-funcionalidade`)
+6. Abre um Pull Request
+
+Obs: Tento revisar PRs rapidinho, mas as vezes demoro uns dias (trabalho full-time). Paciência! 😅
 
 ---
 
-## 🌟 Mostre seu apoio
+## 🌟 Mostre Apoio
 
-Se este projeto te ajudou, dê uma ⭐️!
+Se o projeto te ajudou de alguma forma:
+- Dá uma ⭐️ no repositório
+- Compartilha com outros devs
+- Abre issues com sugestões
+- Contribui com código
+
+Qualquer apoio é muito apreciado!
 
 ---
 
-## 📞 Suporte
+## 📞 Dúvidas?
 
-- Abra uma [issue](https://github.com/migueleng-dev/anime-saas/issues)
-- Entre em contato: dev@animesaas.com
+Tem alguma dúvida sobre o projeto?
+
+- Abre uma [issue](https://github.com/migueleng-dev/animelist-saas/issues) com a tag `question`
+- Me manda mensagem no [LinkedIn](https://linkedin.com/in/migueleng)
+
+Tento responder o mais rápido possível!
 
 ---
 
 <div align="center">
 
-**Feito com ❤️ e Java**
+**Feito com ☕ e muito Java**
+
+*Se curtiu o projeto, não esquece da ⭐!*
 
 </div>
