@@ -1,0 +1,6 @@
+* text=auto
+*.java linguist-detectable=true
+*.java linguist-language=Java
+*.xml linguist-detectable=false
+*.properties linguist-detectable=false
+*.md linguist-detectable=false
