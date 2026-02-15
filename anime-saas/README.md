@@ -21,7 +21,7 @@ Sempre quis criar um projeto que unisse minha paixão por animes com desenvolvim
 
 O projeto começou como um desafio pessoal para aprender mais sobre Spring Security e JWT, mas acabou evoluindo para algo muito maior.
 
-### 🎯 Por Que Este Projeto?
+### Por Que Este Projeto?
 
 Queria praticar conceitos de SaaS real:
 - Arquitetura escalável que eu pudesse usar em projetos profissionais
