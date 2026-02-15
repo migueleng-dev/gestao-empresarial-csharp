@@ -1,8 +1,8 @@
-# 📊 Business Dashboard - Full Stack Application
+#Business Dashboard - Full Stack Application
 
 Sistema completo de Dashboard Empresarial desenvolvido com **Java Spring Boot** (Backend) e **React** (Frontend).
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 - **Java 17**
@@ -23,33 +23,33 @@ Sistema completo de Dashboard Empresarial desenvolvido com **Java Spring Boot** 
 - **React Router**
 - **React Query**
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 ### Dashboard Principal
-- ✅ Visão geral de métricas (vendas, usuários, receita)
-- ✅ Gráficos interativos (linha, barra, pizza)
-- ✅ Tabelas de dados em tempo real
-- ✅ Filtros por período
-- ✅ Export de relatórios (PDF/Excel)
+- Visão geral de métricas (vendas, usuários, receita)
+- Gráficos interativos (linha, barra, pizza)
+- Tabelas de dados em tempo real
+- Filtros por período
+- Export de relatórios (PDF/Excel)
 
 ### Autenticação & Segurança
-- ✅ Login/Logout com JWT
-- ✅ Refresh tokens
-- ✅ Roles e permissões (Admin, User, Viewer)
-- ✅ Rotas protegidas
+- Login/Logout com JWT
+- Refresh tokens
+- Roles e permissões (Admin, User, Viewer)
+- Rotas protegidas
 
 ### Gestão de Usuários
-- ✅ CRUD de usuários
-- ✅ Atribuição de roles
-- ✅ Perfil do usuário
+- CRUD de usuários
+- Atribuição de roles
+- Perfil do usuário
 
 ### Relatórios
-- ✅ Vendas por período
-- ✅ Performance por categoria
-- ✅ Ranking de produtos
-- ✅ Análise de tendências
+- Vendas por período
+- Performance por categoria
+- Ranking de produtos
+- Análise de tendências
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 ```
 business-dashboard/
@@ -84,7 +84,7 @@ business-dashboard/
     └── package.json
 ```
 
-## 🔧 Como Executar
+## Como Executar
 
 ### Backend
 
@@ -106,7 +106,7 @@ npm start
 
 App disponível em: `http://localhost:3000`
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Autenticação
 ```
@@ -140,7 +140,7 @@ GET    /api/reports/export/pdf                   # Export PDF
 GET    /api/reports/export/excel                 # Export Excel
 ```
 
-## 🎨 Layout do Dashboard
+## Layout do Dashboard
 
 ### Tela Principal
 ```
@@ -148,20 +148,20 @@ GET    /api/reports/export/excel                 # Export Excel
 │  Logo          Dashboard          User Menu   Logout   │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  📊 Cards de Métricas                                  │
+│  Cards de Métricas                                  │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
 │  │ Vendas   │ │ Usuários │ │ Receita  │ │ Produtos │ │
 │  │ R$ 50k   │ │   1.2k   │ │ R$ 120k  │ │   450    │ │
 │  └──────────┘ └──────────┘ └──────────┘ └──────────┘ │
 │                                                         │
-│  📈 Gráfico de Vendas (Últimos 6 meses)               │
+│  Gráfico de Vendas (Últimos 6 meses)               │
 │  ┌─────────────────────────────────────────────────┐  │
 │  │                                                   │  │
 │  │     [Gráfico de Linha Interativo]               │  │
 │  │                                                   │  │
 │  └─────────────────────────────────────────────────┘  │
 │                                                         │
-│  🔥 Top Produtos        📊 Vendas por Categoria       │
+│   Top Produtos             Vendas por Categoria       │
 │  ┌──────────────────┐  ┌────────────────────────┐    │
 │  │ 1. Produto A     │  │  [Gráfico de Pizza]    │    │
 │  │ 2. Produto B     │  │                        │    │
@@ -171,7 +171,7 @@ GET    /api/reports/export/excel                 # Export Excel
 └─────────────────────────────────────────────────────────┘
 ```
 
-## 💾 Modelo de Dados
+## Modelo de Dados
 
 ### User
 ```java
@@ -203,7 +203,7 @@ GET    /api/reports/export/excel                 # Export Excel
 - date: LocalDate
 ```
 
-## 🔐 Autenticação JWT
+##Autenticação JWT
 
 O sistema usa JWT (JSON Web Token) para autenticação:
 
@@ -219,7 +219,7 @@ headers: {
 }
 ```
 
-## 📊 Exemplos de Dados Retornados
+## Exemplos de Dados Retornados
 
 ### Métricas Dashboard
 ```json
@@ -241,7 +241,7 @@ headers: {
 }
 ```
 
-## 🎯 Features Avançadas
+## Features Avançadas
 
 - **Real-time updates**: WebSocket para atualização em tempo real
 - **Dark mode**: Tema claro/escuro
@@ -250,7 +250,7 @@ headers: {
 - **CI/CD**: Pipeline configurado
 - **Docker**: Containerização completa
 
-## 🚀 Deploy
+## Deploy
 
 ### Backend (Heroku)
 ```bash
@@ -264,7 +264,7 @@ npm run build
 vercel deploy
 ```
 
-## 📝 Credenciais Padrão
+## Credenciais Padrão
 
 Para testar o sistema:
 
@@ -276,7 +276,7 @@ Para testar o sistema:
 - Username: `user`
 - Password: `user123`
 
-## 🛠️ Melhorias Futuras
+## Melhorias Futuras
 
 - [ ] Notificações push
 - [ ] Export de relatórios agendados
@@ -285,30 +285,8 @@ Para testar o sistema:
 - [ ] Multi-idiomas (i18n)
 - [ ] Modo offline (PWA)
 
-## 📄 Licença
+## Licença
 
 MIT License
 
-## 👨‍💻 Autor
 
-**Seu Nome**
-- LinkedIn: [seu-perfil]
-- GitHub: [seu-github]
-- Email: [seu-email]
-
----
-
-⭐ **Projeto desenvolvido para demonstrar habilidades Full Stack em Java e React**
-
-## 🎓 Conhecimentos Demonstrados
-
-- ✅ Java 17 & Spring Boot
-- ✅ Spring Security & JWT
-- ✅ REST API Design
-- ✅ JPA & Hibernate
-- ✅ React & TypeScript
-- ✅ State Management
-- ✅ Responsive Design
-- ✅ Chart Libraries
-- ✅ Clean Architecture
-- ✅ Git & Version Control
