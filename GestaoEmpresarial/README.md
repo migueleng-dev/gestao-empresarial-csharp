@@ -1,8 +1,8 @@
-# 🏢 Sistema de Gestão de Funcionários e Controle de Ponto
+# Sistema de Gestão de Funcionários e Controle de Ponto
 
 Sistema completo de gerenciamento de funcionários com controle automatizado de ponto eletrônico, desenvolvido em C# com .NET 7, seguindo arquitetura limpa e boas práticas de desenvolvimento.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **.NET 7.0** - Framework principal
 - **ASP.NET Core Web API** - API RESTful
@@ -23,26 +23,26 @@ Sistema completo de gerenciamento de funcionários com controle automatizado de 
 - ✅ Busca por CPF, nome ou departamento
 
 ### Controle de Ponto
-- ✅ Registro de entrada e saída
-- ✅ Controle de intervalos (almoço/pausa)
-- ✅ Geolocalização do registro
-- ✅ Ajuste manual com auditoria
-- ✅ Relatório de horas trabalhadas
-- ✅ Cálculo automático de banco de horas
-- ✅ Histórico completo de registros
+- Registro de entrada e saída
+- Controle de intervalos (almoço/pausa)
+- Geolocalização do registro
+- Ajuste manual com auditoria
+- Relatório de horas trabalhadas
+- Cálculo automático de banco de horas
+- Histórico completo de registros
 
 ### Departamentos
-- ✅ Gestão de departamentos
-- ✅ Associação de funcionários
-- ✅ Relatórios por departamento
+- Gestão de departamentos
+- Associação de funcionários
+- Relatórios por departamento
 
 ### Autenticação e Segurança
-- ✅ Login com JWT
-- ✅ Níveis de acesso (Funcionário, Gestor, RH, Admin)
-- ✅ Auditoria de acessos
-- ✅ Senhas criptografadas
+- Login com JWT
+- Níveis de acesso (Funcionário, Gestor, RH, Admin)
+- Auditoria de acessos
+- Senhas criptografadas
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 ```
 GestaoEmpresarial/
@@ -76,7 +76,7 @@ GestaoEmpresarial/
     └── appsettings.json
 ```
 
-## 📊 Modelo de Dados
+## Modelo de Dados
 
 ### Funcionario
 - Dados pessoais (nome, CPF, email, telefone, data de nascimento)
@@ -99,7 +99,7 @@ GestaoEmpresarial/
 - Tipo (Funcionário, Gestor, RH, Administrador)
 - Vínculo com funcionário
 
-## 🔧 Configuração e Instalação
+## Configuração e Instalação
 
 ### Pré-requisitos
 - .NET 7.0 SDK ou superior
@@ -142,7 +142,7 @@ A API estará disponível em:
 - **HTTP**: http://localhost:5001
 - **Swagger**: https://localhost:7001/swagger
 
-## 📡 Principais Endpoints
+## Principais Endpoints
 
 ### Funcionários
 ```
@@ -180,7 +180,7 @@ POST   /api/auth/register        # Registrar usuário
 GET    /api/auth/me              # Dados do usuário logado
 ```
 
-## 💡 Exemplos de Uso
+## Exemplos de Uso
 
 ### Cadastrar Funcionário
 ```json
@@ -215,7 +215,7 @@ POST /api/ponto/registrar
 - 3 = Início Intervalo
 - 4 = Fim Intervalo
 
-## 🎯 Casos de Uso Empresarial
+## Casos de Uso Empresarial
 
 ### 1. Controle de Jornada
 - Registro automático de entradas/saídas
@@ -238,7 +238,7 @@ POST /api/ponto/registrar
 - Identificação de atrasos recorrentes
 - Métricas de pontualidade
 
-## 🔒 Segurança
+## Segurança
 
 - **Autenticação JWT** com tokens de curta duração
 - **Senhas criptografadas** usando hash seguro
@@ -246,7 +246,7 @@ POST /api/ponto/registrar
 - **Auditoria** de todas as operações sensíveis
 - **Validação** de dados em todas as camadas
 
-## 📈 Melhorias Futuras
+## Melhorias Futuras
 
 - [ ] Aplicativo mobile para registro de ponto
 - [ ] Reconhecimento facial
@@ -258,7 +258,7 @@ POST /api/ponto/registrar
 - [ ] API de integração com outros sistemas
 - [ ] Geofencing para validação de localização
 
-## 🧪 Testes
+#Testes
 
 ```bash
 # Executar todos os testes
@@ -268,27 +268,3 @@ dotnet test
 dotnet test /p:CollectCoverage=true
 ```
 
-## 📝 Licença
-
-Este projeto foi desenvolvido para fins educacionais e demonstração de habilidades técnicas.
-
-## 👨‍💻 Autor
-
-Desenvolvido como projeto para processos seletivos de estágio/júnior em Engenharia de Software.
-
----
-
-## 🌟 Destaques Técnicos
-
-✨ **Arquitetura Limpa** - Separação clara de responsabilidades  
-✨ **SOLID Principles** - Código manutenível e escalável  
-✨ **Repository Pattern** - Abstração do acesso a dados  
-✨ **Dependency Injection** - Baixo acoplamento  
-✨ **Async/Await** - Performance otimizada  
-✨ **Entity Framework Core** - ORM moderno  
-✨ **Swagger** - Documentação interativa  
-✨ **JWT** - Autenticação stateless  
-
----
-
-⭐ **Projeto pronto para demonstração em entrevistas técnicas!**
