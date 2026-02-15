@@ -1,0 +1,7 @@
+* text=auto
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
+*.csproj linguist-detectable=false
+*.sln linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
