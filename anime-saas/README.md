@@ -1,4 +1,4 @@
-# 🎌 Anime SaaS Platform
+# Anime SaaS Platform
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Sempre quis criar um projeto que unisse minha paixão por animes com desenvolvimento backend. Anime SaaS nasceu dessa ideia - uma plataforma para gerenciar e descobrir animes, com sistema de assinaturas e controle de acesso.
 
@@ -32,52 +32,52 @@ Queria praticar conceitos de SaaS real:
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 👤 Sistema de Usuários
-- ✅ Registro e login com JWT
-- ✅ Perfis de usuário personalizáveis
-- ✅ Sistema de roles (USER, PREMIUM, ADMIN)
-- ✅ Gerenciamento de assinaturas
-- ✅ Controle de acesso baseado em plano
+### Sistema de Usuários
+- Registro e login com JWT
+- Perfis de usuário personalizáveis
+- Sistema de roles (USER, PREMIUM, ADMIN)
+- Gerenciamento de assinaturas
+- Controle de acesso baseado em plano
 
 ### 🎬 Gerenciamento de Animes
-- ✅ CRUD completo de animes
-- ✅ Múltiplos tipos (TV, Movie, OVA, ONA, Special, Music)
-- ✅ Status de exibição (Em exibição, Finalizado, Em breve)
-- ✅ 24 gêneros disponíveis
-- ✅ Sistema de episódios
-- ✅ Informações detalhadas (sinopse, estúdio, temporada)
-- ✅ Conteúdo premium exclusivo
+- CRUD completo de animes
+- Múltiplos tipos (TV, Movie, OVA, ONA, Special, Music)
+- Status de exibição (Em exibição, Finalizado, Em breve)
+- 24 gêneros disponíveis
+- Sistema de episódios
+- Informações detalhadas (sinopse, estúdio, temporada)
+- Conteúdo premium exclusivo
 
 ### ⭐ Sistema de Avaliações
-- ✅ Avaliação com notas (0-10)
-- ✅ Comentários e reviews
-- ✅ Cálculo automático de média
-- ✅ Uma avaliação por usuário por anime
+- Avaliação com notas (0-10)
+- Comentários e reviews
+- Cálculo automático de média
+- Uma avaliação por usuário por anime
 
 ### ❤️ Favoritos
-- ✅ Lista personalizada de favoritos
-- ✅ Adicionar/remover favoritos
-- ✅ Visualizar todos os favoritos
+- Lista personalizada de favoritos
+- Adicionar/remover favoritos
+- Visualizar todos os favoritos
 
 ### 🔍 Buscas Avançadas
-- ✅ Buscar por título, gênero, estúdio
-- ✅ Filtrar por status e tipo
-- ✅ Buscar por nota mínima
-- ✅ Ordenação customizada
-- ✅ Animes em alta
+- Buscar por título, gênero, estúdio
+- Filtrar por status e tipo
+- Buscar por nota mínima
+- Ordenação customizada
+- Animes em alta
 
-### 🔐 Autenticação & Segurança
-- ✅ JWT (JSON Web Tokens)
-- ✅ Senhas criptografadas (BCrypt)
-- ✅ Refresh tokens
-- ✅ Controle de sessão
-- ✅ Proteção de endpoints por plano
+Autenticação & Segurança
+- JWT (JSON Web Tokens)
+- Senhas criptografadas (BCrypt)
+- Refresh tokens
+- Controle de sessão
+- Proteção de endpoints por plano
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 ### Backend
 - **Java 17** - Linguagem de programação
@@ -93,7 +93,7 @@ Queria praticar conceitos de SaaS real:
 
 ---
 
-## 📐 Arquitetura
+## Arquitetura
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -128,44 +128,10 @@ Queria praticar conceitos de SaaS real:
 
 ---
 
-## 🚀 Como Executar
 
-### Pré-requisitos
-- Java 17 ou superior
-- Maven 3.6 ou superior
-
-### Instalação
-
-1. **Clone o repositório**
-```bash
-git clone https://github.com/migueleng-dev/anime-saas.git
-cd anime-saas
 ```
 
-2. **Compile o projeto**
-```bash
-mvn clean install
-```
 
-3. **Execute a aplicação**
-```bash
-mvn spring-boot:run
-```
-
-A aplicação estará disponível em: `http://localhost:8080`
-
----
-
-## 📡 Endpoints
-
-### 🔐 Autenticação
-
-```http
-POST   /api/auth/register     - Registrar novo usuário
-POST   /api/auth/login        - Login (retorna JWT token)
-POST   /api/auth/refresh      - Refresh token
-GET    /api/auth/me           - Dados do usuário logado
-```
 
 ### 🎬 Animes
 
@@ -191,14 +157,6 @@ GET    /api/avaliacoes/anime/{animeId}     - Ver avaliações do anime
 GET    /api/avaliacoes/usuario/{usuarioId} - Avaliações do usuário
 ```
 
-### ❤️ Favoritos
-
-```http
-POST   /api/favoritos/{animeId}    - Adicionar aos favoritos
-DELETE /api/favoritos/{animeId}    - Remover dos favoritos
-GET    /api/favoritos              - Listar meus favoritos
-```
-
 ### 👤 Usuários
 
 ```http
@@ -211,7 +169,7 @@ POST   /api/usuarios/upgrade     - Upgrade de plano (ADMIN)
 
 ---
 
-## 📊 Modelos de Dados
+## Modelos de Dados
 
 ### Usuario
 - ID, username, email, senha
@@ -259,7 +217,7 @@ POST   /api/usuarios/upgrade     - Upgrade de plano (ADMIN)
 
 ---
 
-## 🔐 Segurança
+## Segurança
 
 - **Autenticação JWT**: Tokens seguros com expiração
 - **BCrypt**: Hash de senhas com salt
@@ -270,7 +228,7 @@ POST   /api/usuarios/upgrade     - Upgrade de plano (ADMIN)
 
 ---
 
-## 📚 Documentação da API
+## Documentação da API
 
 Acesse a documentação interativa Swagger:
 ```
@@ -284,7 +242,7 @@ http://localhost:8080/api-docs
 
 ---
 
-## 🧪 Testes
+## Testes
 
 ```bash
 mvn test
@@ -292,7 +250,7 @@ mvn test
 
 ---
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 
 ### Desenvolvimento (H2)
 Console H2: `http://localhost:8080/h2-console`
@@ -311,7 +269,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 🎨 Gêneros Disponíveis
+## Gêneros Disponíveis
 
 - Ação, Aventura, Comédia, Drama
 - Fantasia, Horror, Mistério, Romance
@@ -323,7 +281,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
 Coisas que quero adicionar quando tiver tempo:
 
@@ -347,11 +305,11 @@ Se você tem ideias, abre uma issue! Sempre aberto a sugestões.
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Miguel Eng**
 
-Sou desenvolvedor backend apaixonado por criar soluções escaláveis. Este projeto foi uma jornada de aprendizado incrível!
+
 
 - GitHub: [@migueleng-dev](https://github.com/migueleng-dev)
 - LinkedIn: [Miguel Eng](https://linkedin.com/in/migueleng)
@@ -364,47 +322,11 @@ Se curtiu o projeto ou tem dúvidas, me chama!
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
 
-## 🤝 Contribuindo
 
-Pull requests são bem-vindos! Se encontrar bugs ou tiver sugestões:
 
-1. Abre uma issue descrevendo o problema/ideia
-2. Fork o projeto
-3. Cria uma branch (`git checkout -b feature/nova-funcionalidade`)
-4. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-5. Push para a branch (`git push origin feature/nova-funcionalidade`)
-6. Abre um Pull Request
 
-Obs: Tento revisar PRs rapidinho, mas as vezes demoro uns dias (trabalho full-time). Paciência! 😅
 
----
-
-## 🌟 Mostre Apoio
-
-Se o projeto te ajudou de alguma forma:
-- Dá uma ⭐️ no repositório
-- Compartilha com outros devs
-- Abre issues com sugestões
-- Contribui com código
-
-Qualquer apoio é muito apreciado!
-
----
-
-## 📞 Dúvidas?
-
-Tem alguma dúvida sobre o projeto?
-
-- Abre uma [issue](https://github.com/migueleng-dev/animelist-saas/issues) com a tag `question`
-- Me manda mensagem no [LinkedIn](https://linkedin.com/in/migueleng)
-
-Tento responder o mais rápido possível!
-
----
-
-<div align="center">
 
 **Feito com ☕ e muito Java**
 
